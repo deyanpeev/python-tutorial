@@ -1,6 +1,6 @@
 # Letters contained in a string
 
-Given a list of letters and a string, check if all the list's elements are contained in the string
+Given a list of letters and a string, check if all the list's elements are contained in the string.
 
 ---
 Sample input:
