@@ -1,4 +1,4 @@
-names = ['ivan', 'petkan', 'stamat', 'ivan', 'pencho', 'pencho', 'ivan']
+names = ["ivan", "petkan", "gosho", "petkan", "ivan", "stamat", "ivan", "petkan", "ivan"]
 
 names_counter = dict()
 for name in names:
@@ -8,4 +8,4 @@ for name in names:
         names_counter[name] = 1
 
 for name in names_counter:
-    print(name, ' ', names_counter[name])
+    print(name, '-', names_counter[name])
