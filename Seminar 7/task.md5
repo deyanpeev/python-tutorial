@@ -1,0 +1,37 @@
+# Computer mini program
+
+Create a mini program that works with the following class definitions:
+## Computer
+### Attributes
+* cpu - number value
+* memory - number value
+* storage - number value
+
+### Methods
+Create constructor and override the __str__ method to print all the parameters listed.
+
+## Laptop
+Should inherit the computer and add the following:
+### Attributes
+* gpu - number value
+### Methods
+* play_game - if gpu is greater than 2 - print "Playing a game". Otherwise, print "Unable to perform operation."
+* design -  if gpu is greater than 1 - print "Designing". Otherwise, print "Unable to perform operation."
+
+The memory of the laptop should be able to be changed - create a property for it.
+
+## Smartphone
+Should inherit the computer and add the following:
+### Attributes
+* cellular - string value
+* phone_number - string value
+### Methods
+* make_phone_call - the method should take a parameter <i>caller</i> and print "{phone_number} is calling {to_number}"
+* receive_phone_call - the method should print "{phone_number} is receiving a call"
+
+## GamingLaptop
+In the inicialization of this class it should set the GPU value to 5.
+### Methods
+* play_extreme_game - just print "Playing an extreme game".
+
+Each values should be set in the constructors. The constructor of each child class should reuse its parant's.
